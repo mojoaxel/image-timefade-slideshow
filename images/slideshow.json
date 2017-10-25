@@ -9,10 +9,12 @@
     "src_new": "Bahnhof-7-neu.jpg"
   },
   {
+    "title": "Ceresbrunnen",
     "src_old": "Billinganlage_(einst).jpg",
     "src_new": "Billinganlage_(jetzt).jpg"
   },
   {
+    "title": "Erlangner Straße",
     "src_old": "Erlanger-1-alt_h375.jpg",
     "src_new": "Erlanger-1-neu_h375.jpg"
   },
@@ -22,17 +24,17 @@
     "src_new": "Feuerwehr-1-neu.jpg"
   },
   {
-    "title": "Fürther Freiheit",
+    "title": "Friedrichstraße",
     "src_old": "Freiheit-1-alt_h375.jpg",
     "src_new": "Freiheit-1-neu_h375.jpg"
   },
   {
-    "title": "Fürther Freiheit",
+    "title": "Friedrichstraße mit Hotel Kütt",
     "src_old": "Freiheit-2-alt_h375.jpg",
     "src_new": "Freiheit-2-neu_h375.jpg"
   },
   {
-    "title": "Fürther Freiheit",
+    "title": "Hotel National",
     "src_old": "Freiheit-3-alt_h375.jpg",
     "src_new": "Freiheit-3-neu_h375.jpg"
   },
@@ -59,10 +61,12 @@
     "src_new": "Hornschuch-5-neu_h375.jpg"
   },
   {
+    "title": "Königsplatz",
     "src_old": "Konigsplatz-1-alt_h375.jpg",
     "src_new": "Konigsplatz-1-neu_h375.jpg"
   },
   {
+    "title": "König Ludwig Bad",
     "src_old": "Ludwigbad-1-alt_h375.jpg",
     "src_new": "Ludwigbad-1-neu_h375.jpg"
   },
@@ -77,33 +81,27 @@
     "src_new": "Rathaus-2-neu-600.jpg"
   },
   {
-    "title": "Rathaus",
-    "src_old": "Rathaus_(einst).jpg",
-    "src_new": "Rathaus_(jetzt).jpg"
-  },
-  {
-    "title": "Rathaus",
-    "src_old": "Rathaus_2_(einst).jpg",
-    "src_new": "Rathaus_2_(jetzt).jpg"
-  },
-  {
     "title": "Rosenschule",
     "src_old": "Rosen-1-alt_h375.jpg",
     "src_new": "Rosen-1-neu_h375.jpg"
   },
   {
+    "title": "Schwabacher Straße",
     "src_old": "schwabacher-1-alt_h375.jpg",
     "src_new": "schwabacher-1-neu_h375.jpg"
   },
   {
+    "title": "Äußere Schwabacher Straße",
     "src_old": "schwabacher-8-alt_h375.jpg",
     "src_new": "schwabacher-8-neu_h375.jpg"
   },
   {
+    "title": "Fußgängerzone",
     "src_old": "schwabacher-9-alt_h375.jpg",
     "src_new": "schwabacher-9-neu_h375.jpg"
   },
   {
+    "title": "Simonstraße",
     "src_old": "simon-1-alt_h375.jpg",
     "src_new": "simon-1-neu_h375.jpg"
   },
@@ -113,12 +111,12 @@
     "src_new": "Theater-2-neu_h375.jpg"
   },
   {
-    "title": "Theater",
+    "title": "Königstraße mit Stadttheater",
     "src_old": "Theater-3-alt_h375.jpg",
     "src_new": "Theater-3-neu_h375.jpg"
   },
   {
-    "title": "Theater / Gericht",
+    "title": "Gericht",
     "src_old": "Theater_Gericht-1-alt_h375.jpg",
     "src_new": "Theater_Gericht-1-neu_h375.jpg"
   }
