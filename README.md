@@ -1,4 +1,4 @@
-# image-timefade-slideshow
+# Back in Time, Fürth (Bayern)
 
 Online-Version: https://mojoaxel.github.io/image-timefade-slideshow/
 

@@ -4,6 +4,7 @@
     "src_new": "Amalien-3-neu_h375.jpg"
   },
   {
+    "title": "Bahnhof",
     "src_old": "Bahnhof-7-alt.jpg",
     "src_new": "Bahnhof-7-neu.jpg"
   },
@@ -16,18 +17,22 @@
     "src_new": "Erlanger-1-neu_h375.jpg"
   },
   {
+    "title": "Feuerwehr",
     "src_old": "Feuerwehr-1-alt.jpg",
     "src_new": "Feuerwehr-1-neu.jpg"
   },
   {
+    "title": "Fürther Freiheit",
     "src_old": "Freiheit-1-alt_h375.jpg",
     "src_new": "Freiheit-1-neu_h375.jpg"
   },
   {
+    "title": "Fürther Freiheit",
     "src_old": "Freiheit-2-alt_h375.jpg",
     "src_new": "Freiheit-2-neu_h375.jpg"
   },
   {
+    "title": "Fürther Freiheit",
     "src_old": "Freiheit-3-alt_h375.jpg",
     "src_new": "Freiheit-3-neu_h375.jpg"
   },
@@ -62,22 +67,27 @@
     "src_new": "Ludwigbad-1-neu_h375.jpg"
   },
   {
+    "title": "Rathaus",
     "src_old": "Rathaus-1-alt_h375.jpg",
     "src_new": "Rathaus-1-neu_h375.jpg"
   },
   {
+    "title": "Rathaus",
     "src_old": "Rathaus-2-alt-600.jpg",
     "src_new": "Rathaus-2-neu-600.jpg"
   },
   {
+    "title": "Rathaus",
     "src_old": "Rathaus_(einst).jpg",
     "src_new": "Rathaus_(jetzt).jpg"
   },
   {
+    "title": "Rathaus",
     "src_old": "Rathaus_2_(einst).jpg",
     "src_new": "Rathaus_2_(jetzt).jpg"
   },
   {
+    "title": "Rosenschule",
     "src_old": "Rosen-1-alt_h375.jpg",
     "src_new": "Rosen-1-neu_h375.jpg"
   },
@@ -98,14 +108,17 @@
     "src_new": "simon-1-neu_h375.jpg"
   },
   {
+    "title": "Theater",
     "src_old": "Theater-2-alt_h375.jpg",
     "src_new": "Theater-2-neu_h375.jpg"
   },
   {
+    "title": "Theater",
     "src_old": "Theater-3-alt_h375.jpg",
     "src_new": "Theater-3-neu_h375.jpg"
   },
   {
+    "title": "Theater / Gericht",
     "src_old": "Theater_Gericht-1-alt_h375.jpg",
     "src_new": "Theater_Gericht-1-neu_h375.jpg"
   }
