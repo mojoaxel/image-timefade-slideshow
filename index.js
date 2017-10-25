@@ -49,7 +49,12 @@ $(function() {
   $spinner.show();
   $title.hide();
   $img.hide();
-  $.getJSON( "./images.json", function(slides) {
+  $.getJSON( "./images/slideshow.json", function(slides) {
+    slides = slides.map(function(slide) {
+      slide.src_old = "./images/" + slide.src_old;
+      slide.src_new = "./images/" + slide.src_new;
+      return slide;
+    })
     startSlideshow(slides);
   });
 });
