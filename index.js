@@ -1,6 +1,7 @@
 $(function() {
   var fade = 3000;
   var delay = 1000;
+  var useRandom = true;
 
   var $spinner = $('.loading_spinner');
   var $title= $('.title');
@@ -30,6 +31,7 @@ $(function() {
   }
 
   function nextSlide(slide) {
+    console.log("Showing Slide ", slide.title);
     showImages(
       slide.title,
       slide.src_old,
@@ -37,11 +39,25 @@ $(function() {
     );
   }
 
+  function getNextSlideIndex(slide_couter, slides) {
+    var index = slide_couter;
+    if (useRandom) {
+      index = Math.floor(Math.random() * slides.length);
+    } else {
+      index = slide_couter < slides.length-1 ? slide_couter+1 : 0;
+    }
+    if (index === slide_couter) {
+      index = getNextSlideIndex(slide_couter, slides);
+    }
+    console.log("Index: ", index);
+    return index;
+  }
+
   function startSlideshow(slides) {
-    var slide_couter = 0;
+    var slide_couter = getNextSlideIndex(0, slides);
     nextSlide(slides[slide_couter]);
     var slideInterval = setInterval(function() {
-      slide_couter = slide_couter < slides.length-1 ? slide_couter+1 : 0;
+      slide_couter = getNextSlideIndex(slide_couter, slides);
       nextSlide(slides[slide_couter]);
     }, (fade+delay)*6+fade*2);
   }
