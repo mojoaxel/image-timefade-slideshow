@@ -18,7 +18,7 @@ $(function() {
   }
 
   function showImages(title, src_old, src_new) {
-    $spinner.fadeIn();
+    //$spinner.fadeIn();
     $title.fadeOut(fade);
     $imgNew.fadeOut(fade);
     $imgOld.fadeOut(fade, function() {
