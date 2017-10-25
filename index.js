@@ -1,5 +1,5 @@
 $(function() {
-  var fade = 2000;
+  var fade = 3000;
   var delay = 1000;
 
   var $spinner = $('.loading_spinner');
@@ -43,7 +43,7 @@ $(function() {
     var slideInterval = setInterval(function() {
       slide_couter = slide_couter < slides.length-1 ? slide_couter+1 : 0;
       nextSlide(slides[slide_couter]);
-    }, (fade+delay)*6+fade);
+    }, (fade+delay)*6+fade*2);
   }
 
   $spinner.show();
