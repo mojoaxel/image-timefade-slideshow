@@ -9,34 +9,31 @@ $(function() {
   var $imgOld = $('.image.old');
   var $imgNew = $('.image.new');
 
-  function fadeImages() {
+  function fadeImages(callback) {
     $imgOld.fadeIn(fade, function() {
-      $img.delay(delay).fadeToggle(fade).delay(delay).fadeToggle(fade)
-          .delay(delay).fadeToggle(fade).delay(delay).fadeToggle(fade)
-          .delay(delay).fadeToggle(fade).delay(delay).fadeToggle(fade);
+      $imgOld
+        .delay(delay).fadeToggle(fade)
+        .delay(delay).fadeToggle(fade)
+        .delay(delay).fadeToggle(fade);
+      $imgNew
+        .delay(delay).fadeToggle(fade)
+        .delay(delay).fadeToggle(fade)
+        .delay(delay).fadeToggle(fade, callback);
     });
   }
 
-  function showImages(title, src_old, src_new) {
-    //$spinner.fadeIn();
+  function showImages(title, src_old, src_new, callback) {
+    console.log("Showing Slide: ", title || src_old);
+    $spinner.fadeIn(fade);
     $title.fadeOut(fade);
-    $imgNew.fadeOut(fade);
-    $imgOld.fadeOut(fade, function() {
+    $imgOld.hide();
+    $imgNew.fadeOut(fade, function() {
       $imgOld.attr('src', src_old);
       $imgNew.attr('src', src_new);
       $spinner.fadeOut(fade);
       $title.text(title || '').fadeIn(fade);
-      fadeImages();
+      fadeImages(callback);
     });
-  }
-
-  function nextSlide(slide) {
-    console.log("Showing Slide with title ", slide.title);
-    showImages(
-      slide.title,
-      slide.src_old,
-      slide.src_new
-    );
   }
 
   function getNextSlideIndex(slide_couter, slides) {
@@ -49,17 +46,22 @@ $(function() {
     if (index === slide_couter) {
       index = getNextSlideIndex(slide_couter, slides);
     }
-    console.log("Index: ", index);
     return index;
   }
 
   function startSlideshow(slides) {
-    var slide_couter = getNextSlideIndex(0, slides);
-    nextSlide(slides[slide_couter]);
-    var slideInterval = setInterval(function() {
-      slide_couter = getNextSlideIndex(slide_couter, slides);
-      nextSlide(slides[slide_couter]);
-    }, (fade+delay)*6+fade*2);
+    var slide_couter = 0;
+    function endlessLoop() {
+      slide_couter = getNextSlideIndex(slide_couter || 0, slides);
+      var slide = slides[slide_couter];
+      showImages(
+        slide.title,
+        slide.src_old,
+        slide.src_new,
+        endlessLoop
+      );
+    }
+    endlessLoop();
   }
 
   $spinner.show();
