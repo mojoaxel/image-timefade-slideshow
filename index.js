@@ -25,13 +25,13 @@ $(function() {
       $imgOld.attr('src', src_old);
       $imgNew.attr('src', src_new);
       $spinner.fadeOut(fade);
-      $title.text(title).fadeIn(fade);
+      $title.text(title || '').fadeIn(fade);
       fadeImages();
     });
   }
 
   function nextSlide(slide) {
-    console.log("Showing Slide ", slide.title);
+    console.log("Showing Slide with title ", slide.title);
     showImages(
       slide.title,
       slide.src_old,

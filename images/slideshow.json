@@ -1,17 +1,112 @@
-[{
-  "title": "Grüner Baum",
-  "src_old": "Grüner_Baum_(einst).jpg",
-  "src_new": "Grüner_Baum_(jetzt).jpg"
-}, {
-  "title": "Rathaus",
-  "src_old": "Rathaus_(einst).jpg",
-  "src_new": "Rathaus_(jetzt).jpg"
-}, {
-  "title": "Rathaus",
-  "src_old": "Rathaus_2_(einst).jpg",
-  "src_new": "Rathaus_2_(jetzt).jpg"
-}, {
-  "title": "Billinganlage",
-  "src_old": "Billinganlage_(einst).jpg",
-  "src_new": "Billinganlage_(jetzt).jpg"
-}]
+[
+  {
+    "src_old": "Amalien-3-alt_h375.jpg",
+    "src_new": "Amalien-3-neu_h375.jpg"
+  },
+  {
+    "src_old": "Bahnhof-7-alt.jpg",
+    "src_new": "Bahnhof-7-neu.jpg"
+  },
+  {
+    "src_old": "Billinganlage_(einst).jpg",
+    "src_new": "Billinganlage_(jetzt).jpg"
+  },
+  {
+    "src_old": "Erlanger-1-alt_h375.jpg",
+    "src_new": "Erlanger-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Feuerwehr-1-alt.jpg",
+    "src_new": "Feuerwehr-1-neu.jpg"
+  },
+  {
+    "src_old": "Freiheit-1-alt_h375.jpg",
+    "src_new": "Freiheit-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Freiheit-2-alt_h375.jpg",
+    "src_new": "Freiheit-2-neu_h375.jpg"
+  },
+  {
+    "src_old": "Freiheit-3-alt_h375.jpg",
+    "src_new": "Freiheit-3-neu_h375.jpg"
+  },
+  {
+    "title": "Grüner Markt",
+    "src_old": "grMarkt-1-alt_h375.jpg",
+    "src_new": "grMarkt-1-neu_h375.jpg"
+  },
+  {
+    "title": "Grüner Baum",
+    "src_old": "Grüner_Baum_(einst).jpg",
+    "src_new": "Grüner_Baum_(jetzt).jpg"
+  },
+  {
+    "src_old": "Hardenberg-1-alt_h375.jpg",
+    "src_new": "Hardenberg-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Heinrich-1-alt_h375.jpg",
+    "src_new": "Heinrich-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Hornschuch-5-alt_h375.jpg",
+    "src_new": "Hornschuch-5-neu_h375.jpg"
+  },
+  {
+    "src_old": "Konigsplatz-1-alt_h375.jpg",
+    "src_new": "Konigsplatz-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Ludwigbad-1-alt_h375.jpg",
+    "src_new": "Ludwigbad-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Rathaus-1-alt_h375.jpg",
+    "src_new": "Rathaus-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Rathaus-2-alt-600.jpg",
+    "src_new": "Rathaus-2-neu-600.jpg"
+  },
+  {
+    "src_old": "Rathaus_(einst).jpg",
+    "src_new": "Rathaus_(jetzt).jpg"
+  },
+  {
+    "src_old": "Rathaus_2_(einst).jpg",
+    "src_new": "Rathaus_2_(jetzt).jpg"
+  },
+  {
+    "src_old": "Rosen-1-alt_h375.jpg",
+    "src_new": "Rosen-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "schwabacher-1-alt_h375.jpg",
+    "src_new": "schwabacher-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "schwabacher-8-alt_h375.jpg",
+    "src_new": "schwabacher-8-neu_h375.jpg"
+  },
+  {
+    "src_old": "schwabacher-9-alt_h375.jpg",
+    "src_new": "schwabacher-9-neu_h375.jpg"
+  },
+  {
+    "src_old": "simon-1-alt_h375.jpg",
+    "src_new": "simon-1-neu_h375.jpg"
+  },
+  {
+    "src_old": "Theater-2-alt_h375.jpg",
+    "src_new": "Theater-2-neu_h375.jpg"
+  },
+  {
+    "src_old": "Theater-3-alt_h375.jpg",
+    "src_new": "Theater-3-neu_h375.jpg"
+  },
+  {
+    "src_old": "Theater_Gericht-1-alt_h375.jpg",
+    "src_new": "Theater_Gericht-1-neu_h375.jpg"
+  }
+]
